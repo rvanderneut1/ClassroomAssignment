@@ -1,6 +1,7 @@
 using ClassroomAssignment.UI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using ClassroomAssignment.Domain.Models;
 using ClassroomAssignment.DomainServices;
 
 namespace ClassroomAssignment.UI.Controllers
@@ -17,8 +18,8 @@ namespace ClassroomAssignment.UI.Controllers
 
         public IActionResult Index()
         {
-            var studentClasses = _studentClassRepo.GetAll();
-            return View(studentClasses);
+            var studentClasses = _studentClassRepo.GetAll() ?? new List<StudentClass>();
+            return View(studentClasses.ToList());
         }
         
         public IActionResult Details(Guid id)

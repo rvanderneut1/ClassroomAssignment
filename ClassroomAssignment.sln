@@ -5,11 +5,17 @@ VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomAssignment.Domain", "ClassroomAssignment\ClassroomAssignment.Domain.csproj", "{EC32D0C9-93FE-4AC1-A3A0-F1890137ADF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomAssignment.DomainServices", "ClassroomAssignment.DomainServices\ClassroomAssignment.DomainServices.csproj", "{4B231B42-549D-4EEF-8960-74681B8D7DD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomAssignment.DomainServices", "ClassroomAssignment.DomainServices\ClassroomAssignment.DomainServices.csproj", "{4B231B42-549D-4EEF-8960-74681B8D7DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomAssignment.Infrastructure", "ClassroomAssignment.Infrastructure\ClassroomAssignment.Infrastructure.csproj", "{A3E9D989-07E1-4766-9374-DF5D4D0B8E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomAssignment.Infrastructure", "ClassroomAssignment.Infrastructure\ClassroomAssignment.Infrastructure.csproj", "{A3E9D989-07E1-4766-9374-DF5D4D0B8E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomAssignment.UI", "ClassroomAssignment.UI\ClassroomAssignment.UI.csproj", "{14383D86-697E-421C-AEAF-5C1A2EA809C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomAssignment.UI", "ClassroomAssignment.UI\ClassroomAssignment.UI.csproj", "{14383D86-697E-421C-AEAF-5C1A2EA809C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomAssignment.WebApi", "ClassroomAssignment.WebApi\ClassroomAssignment.WebApi.csproj", "{D8AB75B9-E1DF-49FC-B666-732685838D8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomAssignment.GraphQL", "ClassroomAssignment.GraphQL\ClassroomAssignment.GraphQL.csproj", "{380CC6F9-1227-435B-B2A1-FE6263F340B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomAssignment.UI.Test", "ClassroomAssignment.UI.Test\ClassroomAssignment.UI.Test.csproj", "{15CC7F27-064B-430C-8F6D-8F14B337263E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{14383D86-697E-421C-AEAF-5C1A2EA809C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14383D86-697E-421C-AEAF-5C1A2EA809C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14383D86-697E-421C-AEAF-5C1A2EA809C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AB75B9-E1DF-49FC-B666-732685838D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AB75B9-E1DF-49FC-B666-732685838D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AB75B9-E1DF-49FC-B666-732685838D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AB75B9-E1DF-49FC-B666-732685838D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380CC6F9-1227-435B-B2A1-FE6263F340B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380CC6F9-1227-435B-B2A1-FE6263F340B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380CC6F9-1227-435B-B2A1-FE6263F340B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380CC6F9-1227-435B-B2A1-FE6263F340B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CC7F27-064B-430C-8F6D-8F14B337263E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CC7F27-064B-430C-8F6D-8F14B337263E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CC7F27-064B-430C-8F6D-8F14B337263E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CC7F27-064B-430C-8F6D-8F14B337263E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,6 +17,5 @@ namespace ClassroomAssignment.Domain.Models
         public bool HasExam { get; set; }
 
         public required StudentClass StudentClass { get; set; }
-
     }
 }

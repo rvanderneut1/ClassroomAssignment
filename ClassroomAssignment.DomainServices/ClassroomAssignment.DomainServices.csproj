@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ClassroomAssignment\ClassroomAssignment.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Rules\" />
+  </ItemGroup>
+
 </Project>
